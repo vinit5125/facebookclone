@@ -1,164 +1,36 @@
 *{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    outline: none;
-}
-body{
-    width: 100%;
-    column-gap: 20px;
-    background-color: #f0f2f5;
-}
-form{
-    background-color: #fff;
-    position:fixed;
-    width: 320px;
-    height: 230px;
-    padding: 10px 5px 20px 5px;
-    margin: -10vh 850px;
-    box-shadow: 5px 5px 6px -7px;
-}
-.inpute [type='text'],inpute[type='password']{
-    display: block;
-    background-color: #fff;
-    margin: auto;
-    border: 1.5px solid rgb(200,200,200);
-    width: 300px;
-    padding: 10px 40px;
-    border-radius: 5px;
-    text-align: center;
-    color: black;
-    font-family: 'segoe UI';
-    font-size: 15px;
-}
-
-button{
-    border: none;
-    background-color: #1877f2;
-    color: white;
-    margin: auto;
-    width: 283px;
-    display: block;
-    border-radius: 5px;
-    padding: 10px 0;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.f-pws{
-    display: block;
-    width: 200px;
-    margin: auto;
-    color: #1877f2;
-    padding-left: 80px;
-
-    font-weight: 400;
-}
-
-.line{
-    border-top: 1px solid #222;
-    opacity: 0.2;
-}
-.btn{
-    width: 180px;
-    font-size: 14px;
-    background-color: #42b72a;
-    text-align: center;
-}
-
-.sub-link h3{
-    width: 270px;
-    position: relative;
-    color: black;
-    font-family: "segoe UI",Arial;
-    padding: 130px 890px;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.sub-link h3 a{
-    color: black;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.f-container{
-    width: 350px;
-    margin-left: 300px;
-    margin-top: 30vh;
-    font-family: "segoe UI",Robot,"San Francisco";
-}
-
-.f-container{
-    width: 250px;
-}
-
-p{
     font-size: 20px;
-    font-weight: 600;
+    font-family: inherit;
+}
 
+#nav{
+    height: 70px;
+    width: 100%;
+    
 }
-.ab{
-    align-items: center;
-    margin: auto;
-   display: block;
-    justify-content: center;
-    width: 300;
+#abcd{ display: flex;
 }
-h1{
-    font-size: 60px;   
-    width: 350px;
-    margin-left:600px;
-    margin-top: 1pc;
-    color:black;
+#ab{
+    
+    width: 15%;
+    background-color: #f0f2f5;
+    height: 30000px;
 }
-.ad{
+#ac{
+    width: 60%;
+    background-color: #e8ecf4;
+    height: 30000px;
+}
+#ad{
+    width: 9%;
+    background-color: #f0f2f5;
+    height: 30000px;
+}
+#vs{
     display: flex;
-    column-gap: 20px;
 }
-.d1{
-    margin-left: 20px
-    ;
+#q{
+    width: 33.33%;
 }
-.d3{
-    margin-right: 10px
-    ;
-}
-.i1{
-    margin-top: 50px;
-}
-.i2{
-   margin-top: 150px; 
-}
-.i2{
-    margin-top: 40px; 
- }
- .i3{
-    margin-top: 10px; 
- }
- .i4 {
-    margin-top: 40px; 
- }
-.l1{
-    margin-left: -60%;
-    width: 20;
-}
-.c1{
-    margin-left: 40%;
-    margin-top: -33px;
-
-    width: 10px;
-}
-.l2{
-    margin-left: -60%;
-    width: -20px;
-    height: 1;
-}
-.l3{
-    margin-left: -60%;
-    width: 20;
-}
-.n1{
-    background-color: #1877f2;
-    color:blue;
-}
+#w{width: 33.33%;}
+#r{width: 33.33%;}
